@@ -1,0 +1,69 @@
+{
+  "manifestHash": "i14q58",
+  "symbols": {
+    "s_oEW0x2YNb2o": {
+      "origin": "components/header.tsx",
+      "displayName": "Header_component",
+      "canonicalFilename": "s_oew0x2ynb2o",
+      "hash": "oEW0x2YNb2o",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        88,
+        125
+      ]
+    }
+  },
+  "mapping": {
+    "s_oEW0x2YNb2o": "q-AL2v2oM3.js"
+  },
+  "bundles": {
+    "q-AL2v2oM3.js": {
+      "size": 136,
+      "imports": [
+        "q-qMEftCjr.js"
+      ],
+      "origins": [
+        "src/s_oew0x2ynb2o.js"
+      ],
+      "symbols": [
+        "s_oEW0x2YNb2o"
+      ]
+    },
+    "q-qMEftCjr.js": {
+      "size": 4794,
+      "dynamicImports": [
+        "q-AL2v2oM3.js"
+      ],
+      "origins": [
+        "node_modules/.pnpm/@builder.io+qwik@1.3.5_undici@5.28.2/node_modules/@builder.io/qwik/core.min.mjs",
+        "src/components/header.tsx"
+      ]
+    },
+    "q-TewWbKxO.js": {
+      "size": 57,
+      "imports": [
+        "q-qMEftCjr.js"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "hook"
+    }
+  },
+  "platform": {
+    "qwik": "1.3.5",
+    "vite": "",
+    "rollup": "4.9.5",
+    "env": "node",
+    "os": "darwin",
+    "node": "21.5.0"
+  }
+}
